@@ -8,7 +8,6 @@ producer = KafkaProducer(bootstrap_servers='localhost:9092', value_serializer=la
 transactions = [
     {"transaction_id": "txn_1", "amount": 100.0, "account": "account_1"},
     {"transaction_id": "txn_2", "amount": 150.0, "account": "account_2"},
-
 ]
 
 while True:

@@ -22,8 +22,9 @@ st.title("Kafka Streamlit Dashboard")
 st.write("Starting to consume messages from Kafka")
 name = ["Mathieu LACROIX", "Hugo PIRES HIGINO", "Valentin Chrétien"]
 
-for i in name :
+for i in name:
     st.markdown(f"- {i}")
+
 # Fonction pour consommer les messages Kafka
 def consume_messages():
     for message in consumer:
