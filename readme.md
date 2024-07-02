@@ -2,6 +2,11 @@
 
 Ce projet contient une application Streamlit qui consomme des données à partir de différents topics Kafka simulés par des producteurs Python.
 
+## Contributor
+- **Mathieu Lacroix**
+- **Hugo Pires Higino**
+- **Valentin Chrétien**
+
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés :
