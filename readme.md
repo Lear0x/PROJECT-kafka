@@ -19,7 +19,7 @@ Utilisez Docker Compose pour exécuter l'environnement Kafka. Assurez-vous d'avo
 
  ``` docker-compose up -d ```
 
-Crée un environnement virtuelle 
+Créer un environnement virtuelle 
 ``` python -m venv env ```
 
 Accéder à l'environnement virtuelle 
@@ -35,7 +35,7 @@ docker-compose exec kafka kafka-topics --create --topic iot-sensors --bootstrap-
 docker-compose exec kafka kafka-topics --create --topic financial-transactions --bootstrap-server kafka:9092 --partitions 3 --replication-factor 1
  ```
 
-Lancer streamlit via script ou command 
+Lancer streamlit via script ou commande 
 
 ``` 
 # Lancement des producteurs en arrière-plan
